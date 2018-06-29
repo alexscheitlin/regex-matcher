@@ -10,15 +10,15 @@ public class RegexMatcherTest {
     private String myOtherString = "firstName:Alex, last:Scheitlin";
 
     @Test
-    public void match_matchingString() {
-        boolean doesMatch = this.myRegexMatcher.match(this.myString);
+    public void matches_matchingString() {
+        boolean doesMatch = this.myRegexMatcher.matches(this.myString);
 
         Assert.assertTrue(doesMatch);
     }
 
     @Test
-    public void match_nonMatchingString() {
-        boolean doesMatch = this.myRegexMatcher.match(this.myOtherString);
+    public void matches_nonMatchingString() {
+        boolean doesMatch = this.myRegexMatcher.matches(this.myOtherString);
 
         Assert.assertFalse(doesMatch);
     }

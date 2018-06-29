@@ -2,7 +2,7 @@
 
 > _An object to simply test whether Strings match a regular expression or not and to extract specified components from the Strings._
 
-[![Build Status](https://travis-ci.org/alexscheitlin/regex-matcher.svg?branch=master)](https://travis-ci.org/alexscheitlin/regex-matcher) [![](https://jitpack.io/v/alexscheitlin/regex-matcher.svg)](https://jitpack.io/#alexscheitlin/regex-matcher/v1.0.0)
+[![Build Status](https://travis-ci.org/alexscheitlin/regex-matcher.svg?branch=master)](https://travis-ci.org/alexscheitlin/regex-matcher) [![](https://jitpack.io/v/alexscheitlin/regex-matcher.svg)](https://jitpack.io/#alexscheitlin/regex-matcher/v1.0.1)
 
 ## How to Use
 
@@ -25,7 +25,7 @@
 	<dependency>
 	    <groupId>com.github.alexscheitlin</groupId>
 	    <artifactId>regex-matcher</artifactId>
-	    <version>v1.0.0</version>
+	    <version>v1.0.1</version>
 	</dependency>
 ```
 
@@ -42,7 +42,7 @@
 - Add the dependency:
 ```
 	dependencies {
-	        implementation 'com.github.alexscheitlin:regex-matcher:v1.0.0'
+	        implementation 'com.github.alexscheitlin:regex-matcher:v1.0.1'
 	}
 ```
 
@@ -82,7 +82,7 @@ Last Name: Scheitlin
   - Method 2: Silent match returning `null` in case of a mitsmatch.
 ```
 RegexMatcher myRegexMatcher = new RegexMatcher(myRegularExpression);
-if (myRegexMatcher.match(myString)) {
+if (myRegexMatcher.matches(myString)) {
     String[] components = myRegexMatcher.extractComponentsSilently(myString);
     System.out.println("First Name: " + components[0]);
     System.out.println("Last Name: " + components[1]);
