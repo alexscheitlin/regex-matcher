@@ -14,7 +14,7 @@ String myString = "firstName:Alex, lastName:Scheitlin";
 // test whether the String matches the regular expression and print its components
 // to the console
 RegexMatcher myRegexMatcher = new RegexMatcher(regularExpression);
-if (myRegexMatcher.doesMatch(myString)) {
+if (myRegexMatcher.match(myString)) {
     try {
         String[] components = myRegexMatcher.extractComponents(myString);
         System.out.println("First Name: " + components[0]);
@@ -26,7 +26,7 @@ if (myRegexMatcher.doesMatch(myString)) {
 
 // silent way
 // check before matching
-if (myRegexMatcher.doesMatch(myString)) {
+if (myRegexMatcher.match(myString)) {
     String[] components = myRegexMatcher.extractComponentsSilently(myString);
     System.out.println("First Name: " + components[0]);
     System.out.println("Last Name: " + components[1]);

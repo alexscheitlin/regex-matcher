@@ -31,7 +31,7 @@ public class RegexMatcher {
      * @return {@code true} if the String matches the regular expression,
      * {@code false} if the String does not match the regular expression
      */
-    public boolean doesMatch(String string) {
+    public boolean match(String string) {
         return string.matches(regex);
     }
 
