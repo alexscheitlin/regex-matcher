@@ -53,3 +53,13 @@ Expected Output:
 First Name: Alex
 Last Name: Scheitlin
 ```
+
+## Authors
+
+<!--TODO: List all authors -->
+
+- **Author** - *Initial work* - [alexscheitlin](https://github.com/alexscheitlin)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
