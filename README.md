@@ -2,7 +2,51 @@
 
 > _An object to simply test whether Strings match a regular expression or not and to extract specified components from the Strings._
 
-## Example Usage:
+[![](https://jitpack.io/v/alexscheitlin/regex-matcher.svg)](https://jitpack.io/#alexscheitlin/regex-matcher/v1.0.0)
+
+## How to Use
+
+### Add Dependency
+
+#### Maven
+
+- Add the JitPack repository to your `pom.xlm` file:
+```
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+
+- Add the dependency:
+```
+	<dependency>
+	    <groupId>com.github.alexscheitlin</groupId>
+	    <artifactId>regex-matcher</artifactId>
+	    <version>v1.0.0</version>
+	</dependency>
+```
+
+### Gradle
+
+- Add the JitPack repository to your `build.gradle` file:
+```
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+```
+
+- Add the dependency:
+```
+	dependencies {
+	        implementation 'com.github.alexscheitlin:regex-matcher:v1.0.0'
+	}
+```
+
+## Code Example
 
 Define a regular expression a String should match to and use opening and closing parentheses to define the components to extract from the String:
 ```
