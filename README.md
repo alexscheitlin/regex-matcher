@@ -10,7 +10,7 @@
 
 #### Maven
 
-- Add the JitPack repository to your `pom.xlm` file:
+- Add the JitPack repository to your `pom.xml` file:
 ```
 	<repositories>
 		<repository>
@@ -78,9 +78,6 @@ Expected Output:
 First Name: Alex
 Last Name: Scheitlin
 ```
-
-Silent way
-
 
   - Method 2: Silent match returning `null` in case of a mitsmatch.
 ```
