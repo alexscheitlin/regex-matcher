@@ -2,7 +2,9 @@
 
 > _An object to simply test whether Strings match a regular expression or not and to extract specified components from the Strings._
 
-[![Build Status](https://travis-ci.org/alexscheitlin/regex-matcher.svg?branch=master)](https://travis-ci.org/alexscheitlin/regex-matcher) [![](https://jitpack.io/v/alexscheitlin/regex-matcher.svg)](https://jitpack.io/#alexscheitlin/regex-matcher/v1.0.1)
+[![Build Status](https://travis-ci.org/alexscheitlin/regex-matcher.svg?branch=master)](https://travis-ci.org/alexscheitlin/regex-matcher)
+[![JitPack Version](https://jitpack.io/v/alexscheitlin/regex-matcher.svg)](https://jitpack.io/#alexscheitlin/regex-matcher/v1.0.1)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## How to Use
 
