@@ -31,7 +31,7 @@
 	</dependency>
 ```
 
-### Gradle
+#### Gradle
 
 - Add the JitPack repository to your `build.gradle` file:
 ```
@@ -48,7 +48,7 @@
 	}
 ```
 
-## Code Example
+### Code Example
 
 Define a regular expression a String should match to and use opening and closing parentheses to define the components to extract from the String:
 ```
