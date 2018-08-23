@@ -81,7 +81,7 @@ First Name: Alex
 Last Name: Scheitlin
 ```
 
-  - Method 2: Silent match returning `null` in case of a mitsmatch.
+  - Method 2: Silent match returning `null` in case of a mismatch.
 ```
 RegexMatcher myRegexMatcher = new RegexMatcher(myRegularExpression);
 if (myRegexMatcher.matches(myString)) {
@@ -99,9 +99,7 @@ Last Name: Scheitlin
 
 ## Authors
 
-<!--TODO: List all authors -->
-
-- **Author** - *Initial work* - [alexscheitlin](https://github.com/alexscheitlin)
+- **Alex Scheitlin** - *Initial work* - [alexscheitlin](https://github.com/alexscheitlin)
 
 ## License
 
